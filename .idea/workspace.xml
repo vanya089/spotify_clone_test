@@ -2,12 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7e04fd8-e10b-44dd-a8c0-8161d26145a6" name="Changes" comment="start project">
-      <change afterPath="$PROJECT_DIR$/server/dist/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Footer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Menu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Playlists.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/YourLibrary.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/Login.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/Registration.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +50,7 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "C:\\Users\\vanya\\IdeaProjects\\spotify_clone_test\\server\\node_modules\\typescript\\lib"
+    "ts.external.directory.path": "C:\\Users\\vanya\\IdeaProjects\\spotify_clone_test\\client\\node_modules\\typescript\\lib"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -51,23 +59,9 @@
       <recent name="C:\Users\vanya\IdeaProjects\spotify_clone_test\spoti-clone\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\vanya\IdeaProjects\spotify_clone_test\client\src\pages" />
       <recent name="C:\Users\vanya\IdeaProjects\spotify_clone_test\spoti-clone\app\(site)" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="spotify_clone_test" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="spotify_clone_test" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -92,7 +86,9 @@
       <workItem from="1695918010354" duration="3830000" />
       <workItem from="1695921927535" duration="555000" />
       <workItem from="1695922518349" duration="104000" />
-      <workItem from="1695922626568" duration="1263000" />
+      <workItem from="1695922626568" duration="1440000" />
+      <workItem from="1695966540655" duration="7708000" />
+      <workItem from="1696493539716" duration="1556000" />
     </task>
     <task id="LOCAL-00001" summary="start_coding">
       <created>1689841699278</created>
@@ -136,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695922483203</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="start project">
+      <created>1695924000573</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1695924000573</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
