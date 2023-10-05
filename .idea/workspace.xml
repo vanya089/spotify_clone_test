@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f7e04fd8-e10b-44dd-a8c0-8161d26145a6" name="Changes" comment="make styles">
+    <list default="true" id="f7e04fd8-e10b-44dd-a8c0-8161d26145a6" name="Changes" comment="finish styles menu">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Menu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Playlists.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Playlists.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/YourLibrary.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/YourLibrary.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +76,7 @@
       <workItem from="1695922518349" duration="104000" />
       <workItem from="1695922626568" duration="1440000" />
       <workItem from="1695966540655" duration="7708000" />
-      <workItem from="1696493539716" duration="2758000" />
+      <workItem from="1696493539716" duration="6555000" />
     </task>
     <task id="LOCAL-00001" summary="start_coding">
       <created>1689841699278</created>
@@ -136,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696495355930</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="finish styles menu">
+      <created>1696496637487</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1696496637487</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +164,7 @@
     <MESSAGE value="create_layout" />
     <MESSAGE value="start project" />
     <MESSAGE value="make styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="make styles" />
+    <MESSAGE value="finish styles menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish styles menu" />
   </component>
 </project>
