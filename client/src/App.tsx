@@ -5,9 +5,9 @@ import Menu from "./components/Menu";
 
 const App: FC = () => {
     return (
-        <div className="h-screen flex flex-col p-1 ">
-            <div className="flex-grow flex">
-                <div className="w-[470px] flex flex-col">
+        <div className="h-full flex flex-col p-1">
+            <div className="flex-grow flex h-full">
+                <div className="w-[550ox] flex flex-col">
                     <Menu/>
                     <YourLibrary/>
                 </div>

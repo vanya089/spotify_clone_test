@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7e04fd8-e10b-44dd-a8c0-8161d26145a6" name="Changes" comment="finish styles menu">
+    <list default="true" id="f7e04fd8-e10b-44dd-a8c0-8161d26145a6" name="Changes" comment="make styles YourLibrary.tsx">
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Header.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/YourLibrary.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/YourLibrary.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,9 +19,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="n1wmrmyd" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2SpRYoN1nf1O3GU9bayjYRGC7pj" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -24,23 +36,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "javascript.nodejs.core.library.configured.version": "16.17.0",
-    "javascript.nodejs.core.library.typings.version": "16.18.54",
-    "last_opened_file_path": "C:/Users/vanya/IdeaProjects/spotify_clone_test/server",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "C:\\Users\\vanya\\IdeaProjects\\spotify_clone_test\\client\\node_modules\\typescript\\lib"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;18.18.1&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.18.6&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/vanya/OneDrive/Рабочий стол/course_project&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\vanya\\IdeaProjects\\spotify_clone_test\\client\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\vanya\IdeaProjects\spotify_clone_test\server" />
@@ -76,7 +97,16 @@
       <workItem from="1695922518349" duration="104000" />
       <workItem from="1695922626568" duration="1440000" />
       <workItem from="1695966540655" duration="7708000" />
-      <workItem from="1696493539716" duration="6555000" />
+      <workItem from="1696493539716" duration="6880000" />
+      <workItem from="1697466789925" duration="56000" />
+      <workItem from="1697545639468" duration="597000" />
+      <workItem from="1697560109703" duration="29000" />
+      <workItem from="1697907621673" duration="397000" />
+      <workItem from="1697908029351" duration="35000" />
+      <workItem from="1697908070336" duration="15000" />
+      <workItem from="1697908091739" duration="630000" />
+      <workItem from="1697909031303" duration="97000" />
+      <workItem from="1698068995628" duration="4363000" />
     </task>
     <task id="LOCAL-00001" summary="start_coding">
       <created>1689841699278</created>
@@ -141,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696496637487</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="make styles YourLibrary.tsx">
+      <created>1696500534166</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1696500534166</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +202,7 @@
     <MESSAGE value="start project" />
     <MESSAGE value="make styles" />
     <MESSAGE value="finish styles menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish styles menu" />
+    <MESSAGE value="make styles YourLibrary.tsx" />
+    <option name="LAST_COMMIT_MESSAGE" value="make styles YourLibrary.tsx" />
   </component>
 </project>
