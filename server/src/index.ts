@@ -1,9 +1,7 @@
-import {Sequelize} from "sequelize-typescript";
-
 require("dotenv").config();
 import express from "express";
 import cors from "cors";
-import {User} from "./models/User";
+import {sequelize} from "./config/dbConfig";
 
 
 const corsOptions = {
@@ -19,14 +17,7 @@ const app = express();
 app.use(express.json());
 app.use(cors(corsOptions));
 
-const sequelize = new Sequelize({
-    dialect: 'mysql',
-    username: 'root',
-    password: '',
-    database: 'mysql@localhost',
-    host: 'localhost',
-    models: [User], // Передайте здесь все ваши модели
-});
+
 
 sequelize.authenticate()
     .then(() => {
@@ -39,15 +30,14 @@ sequelize.authenticate()
 sequelize.sync()
     .then(() => {
         console.log('Модели синхронизированы с базой данных.');
-        try {
-            app.listen(PORT, () => console.log("SERVER STARTED ON PORT " + PORT));
-        } catch (e) {
-            console.log(e);
-        }
     });
 
 async function startApp() {
-
+    try {
+        app.listen(PORT, () => console.log("SERVER STARTED ON PORT " + PORT));
+    } catch (e) {
+        console.log(e);
+    }
 }
 
 startApp();

@@ -10,4 +10,9 @@ export class User extends Model {
         type: DataType.STRING,
     })
     email!: string;
+
+    @Column({
+        type: DataType.STRING,
+    })
+    password!: string;
 }
