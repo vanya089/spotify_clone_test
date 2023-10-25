@@ -6,26 +6,41 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.User = void 0;
+exports.MusicTrack = void 0;
 const sequelize_typescript_1 = require("sequelize-typescript");
-let User = class User extends sequelize_typescript_1.Model {
+let MusicTrack = class MusicTrack extends sequelize_typescript_1.Model {
 };
-exports.User = User;
+exports.MusicTrack = MusicTrack;
 __decorate([
     (0, sequelize_typescript_1.Column)({
         type: sequelize_typescript_1.DataType.STRING,
     })
-], User.prototype, "username", void 0);
+], MusicTrack.prototype, "name", void 0);
 __decorate([
     (0, sequelize_typescript_1.Column)({
         type: sequelize_typescript_1.DataType.STRING,
     })
-], User.prototype, "email", void 0);
+], MusicTrack.prototype, "author", void 0);
 __decorate([
     (0, sequelize_typescript_1.Column)({
         type: sequelize_typescript_1.DataType.STRING,
     })
-], User.prototype, "password", void 0);
-exports.User = User = __decorate([
+], MusicTrack.prototype, "albumName", void 0);
+__decorate([
+    (0, sequelize_typescript_1.Column)({
+        type: sequelize_typescript_1.DataType.INTEGER,
+    })
+], MusicTrack.prototype, "releaseYear", void 0);
+__decorate([
+    (0, sequelize_typescript_1.Column)({
+        type: sequelize_typescript_1.DataType.STRING,
+    })
+], MusicTrack.prototype, "genre", void 0);
+__decorate([
+    (0, sequelize_typescript_1.Column)({
+        type: sequelize_typescript_1.DataType.STRING,
+    })
+], MusicTrack.prototype, "fileUrl", void 0);
+exports.MusicTrack = MusicTrack = __decorate([
     sequelize_typescript_1.Table
-], User);
+], MusicTrack);
