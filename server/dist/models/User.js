@@ -10,7 +10,6 @@ exports.User = void 0;
 const sequelize_typescript_1 = require("sequelize-typescript");
 let User = class User extends sequelize_typescript_1.Model {
 };
-exports.User = User;
 __decorate([
     (0, sequelize_typescript_1.Column)({
         type: sequelize_typescript_1.DataType.STRING,
@@ -26,6 +25,7 @@ __decorate([
         type: sequelize_typescript_1.DataType.STRING,
     })
 ], User.prototype, "password", void 0);
-exports.User = User = __decorate([
+User = __decorate([
     sequelize_typescript_1.Table
 ], User);
+exports.User = User;
