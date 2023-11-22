@@ -12,4 +12,5 @@ exports.sequelize = new sequelize_typescript_1.Sequelize({
     password: 'mypassword',
     database: 'myappdb',
     models: [User_1.User, Music_1.MusicTrack],
+    logging: true,
 });

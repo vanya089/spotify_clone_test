@@ -10,4 +10,5 @@ export const sequelize = new Sequelize({
     password: 'mypassword',
     database: 'myappdb',
     models: [User, MusicTrack],
+    logging: true,
 });

@@ -14,12 +14,12 @@ __decorate([
     (0, sequelize_typescript_1.Column)({
         type: sequelize_typescript_1.DataType.STRING,
     })
-], User.prototype, "username", void 0);
+], User.prototype, "email", void 0);
 __decorate([
     (0, sequelize_typescript_1.Column)({
         type: sequelize_typescript_1.DataType.STRING,
     })
-], User.prototype, "email", void 0);
+], User.prototype, "username", void 0);
 __decorate([
     (0, sequelize_typescript_1.Column)({
         type: sequelize_typescript_1.DataType.STRING,

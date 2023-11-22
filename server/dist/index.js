@@ -16,6 +16,7 @@ require("dotenv").config();
 const express_1 = __importDefault(require("express"));
 const cors_1 = __importDefault(require("cors"));
 const dbConfig_1 = require("./config/dbConfig");
+const router = require("./router");
 const corsOptions = {
     origin: ['http://localhost:3000'],
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
@@ -25,6 +26,7 @@ const PORT = process.env.PORT || 5000;
 const app = (0, express_1.default)();
 app.use(express_1.default.json());
 app.use((0, cors_1.default)(corsOptions));
+app.use("/api", router);
 dbConfig_1.sequelize.authenticate()
     .then(() => {
     console.log('Подключение к базе данных успешно установлено.');

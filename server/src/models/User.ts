@@ -4,12 +4,13 @@ export class User extends Model {
     @Column({
         type: DataType.STRING,
     })
-    username!: string;
+    email!: string;
 
     @Column({
         type: DataType.STRING,
     })
-    email!: string;
+    username!: string;
+
 
     @Column({
         type: DataType.STRING,
