@@ -2,6 +2,8 @@ import React, {FC} from 'react';
 import Home from './pages/Home';
 import YourLibrary from "./components/YourLibrary";
 import Menu from "./components/Menu";
+import Player from "./components/Player";
+
 
 const App: FC = () => {
     return (
@@ -15,6 +17,7 @@ const App: FC = () => {
                     <Home/>
                 </div>
             </div>
+            <Player/>
         </div>
     );
 }

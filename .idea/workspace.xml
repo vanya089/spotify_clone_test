@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
+    <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7e04fd8-e10b-44dd-a8c0-8161d26145a6" name="Changes" comment="fix controller and add router">
-      <change afterPath="$PROJECT_DIR$/server/dist/router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/router.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Player.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/playlist/Playlist.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/playlist/PlaylistSkeleton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/playlists.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/redux/Playlists/types.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/dist/config/dbConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/dist/config/dbConfig.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/dist/controllers/UserController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/dist/controllers/UserController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/dist/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/dist/models/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/dist/models/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Footer.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Playlists.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Playlists.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/react-app-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/react-app-env.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/config/dbConfig.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/config/dbConfig.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/controllers/UserController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/controllers/UserController.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/models/User.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/models/User.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,37 +45,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "ignore_missing_gitignore": "true",
-    "javascript.nodejs.core.library.configured.version": "18.18.0",
-    "javascript.nodejs.core.library.typings.version": "18.18.6",
-    "last_opened_file_path": "/home/developer/RustroverProjects/spotify_clone_test/server/src",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "ts.external.directory.path": "/home/developer/RustroverProjects/spotify_clone_test/server/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.rust.reset.selective.auto.import&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;18.18.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.18.6&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/developer/RustroverProjects/spotify_clone_test/server/src&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;org.rust.cargo.project.model.PROJECT_DISCOVERY&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/developer/RustroverProjects/spotify_clone_test/server/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/server/src" />
@@ -129,6 +132,10 @@
       <workItem from="1698584441915" duration="812000" />
       <workItem from="1698828212526" duration="5184000" />
       <workItem from="1700630073288" duration="1008000" />
+      <workItem from="1700631133198" duration="108000" />
+      <workItem from="1707739415736" duration="139000" />
+      <workItem from="1708149535147" duration="3529000" />
+      <workItem from="1708159337993" duration="1053000" />
     </task>
     <task id="LOCAL-00001" summary="start_coding">
       <created>1689841699278</created>
@@ -208,7 +215,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698585497727</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="fix controller and add router">
+      <option name="closed" value="true" />
+      <created>1700631159743</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1700631159743</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

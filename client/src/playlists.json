@@ -1,0 +1,64 @@
+[
+  {
+    "_id": "0",
+    "title": "lofi beats",
+    "description": "chill beats, lofi vibes, new tracks every week...",
+    "imageUrl": "https://i.scdn.co/image/ab67706f0000000254473de875fea0fd19d39037"
+  },
+  {
+    "_id": "1",
+    "title": "Today's top hits",
+    "description": "Dua Lipa is on top of the Hottest 50!",
+    "imageUrl": "https://i.scdn.co/image/ab67706f0000000254473de875fea0fd19d39037"
+  },
+  {
+    "_id": "2",
+    "title": "All Out 2020s",
+    "description": "The biggest songs of the 2020s.",
+    "imageUrl": "https://i.scdn.co/image/ab67706f0000000254473de875fea0fd19d39037"
+  },
+  {
+    "_id": "3",
+    "title": "Chillout lounge",
+    "description": "Just lean back and enjoy relaxed beats.",
+    "imageUrl": "https://i.scdn.co/image/ab67706f0000000254473de875fea0fd19d39037"
+  },
+
+  {
+    "_id": "4",
+    "title": "Jass in the Background",
+    "description": "Soft instrumental Jazz for all your activities.",
+    "imageUrl": "https://i.scdn.co/image/ab67706f0000000254473de875fea0fd19d39037"
+  },
+  {
+    "_id": "5",
+    "title": "Chill Hits",
+    "description": "Kick back to the best new and recent chill hits.",
+    "imageUrl": "https://i.scdn.co/image/ab67706f0000000254473de875fea0fd19d39037"
+  },
+  {
+    "_id": "6",
+    "title": "Peaceful Piano",
+    "description": "Peaceful piano to help you slow down, breathe, and relax.",
+    "imageUrl": "https://i.scdn.co/image/ab67706f0000000254473de875fea0fd19d39037"
+  },
+  {
+    "_id": "7",
+    "title": "Rock Classics",
+    "description": "Rock legends & epic songs that continue to inspire generations. Cover: Foo Fighters",
+    "imageUrl": "https://i.scdn.co/image/ab67706f0000000254473de875fea0fd19d39037"
+  },
+  {
+    "_id": "8",
+    "title": "Stress Relief",
+    "description": "Calm your mind from anxiety with gentle piano and ambient music.",
+    "imageUrl": "https://i.scdn.co/image/ab67706f0000000254473de875fea0fd19d39037"
+  },
+  {
+    "_id": "9",
+    "title": "All Out 80s",
+    "description": "The biggest songs of the 1980s. Cover: Michael Jackson.",
+    "imageUrl": "https://i.scdn.co/image/ab67706f0000000254473de875fea0fd19d39037"
+  }
+
+]
